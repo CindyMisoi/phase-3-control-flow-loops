@@ -1,8 +1,14 @@
 def happy_new_year
+  # count = 10
+  # while count > 0
+  #   puts count
+  #   count -= 1
+  # end
+  # puts "Happy New Year!"
   count = 10
-  while count > 0
+  until count == 0
     puts count
-    count -= 1
+    count -=1
   end
   puts "Happy New Year!"
 end
